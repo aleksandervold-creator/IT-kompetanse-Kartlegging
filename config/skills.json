@@ -1,0 +1,140 @@
+{
+  "areas": {
+    "programming": {
+      "name": { "no": "Programmering", "en": "Programming" },
+      "items": [
+        { "no": "Python", "en": "Python" },
+        { "no": "Java", "en": "Java" },
+        { "no": "C++", "en": "C++" },
+        { "no": "JavaScript", "en": "JavaScript" },
+        { "no": "TypeScript", "en": "TypeScript" },
+        { "no": "C#", "en": "C#" },
+        { "no": "Rust", "en": "Rust" },
+        { "no": "HTML", "en": "HTML" },
+        { "no": "CSS", "en": "CSS" },
+        { "no": "SQL", "en": "SQL" },
+        { "no": "PowerShell", "en": "PowerShell" },
+        { "no": "Bash / Shell-skripting", "en": "Bash / Shell scripting" },
+        { "no": "Scratch", "en": "Scratch" },
+        { "no": "Blockly", "en": "Blockly" }
+      ]
+    },
+    "software": {
+      "name": { "no": "Programvare", "en": "Software" },
+      "items": [
+        { "no": "Excel", "en": "Excel" },
+        { "no": "Word", "en": "Word" },
+        { "no": "Google Sheets", "en": "Google Sheets" },
+        { "no": "Photoshop", "en": "Photoshop" },
+        { "no": "GIMP", "en": "GIMP" },
+        { "no": "Premiere Pro", "en": "Premiere Pro" },
+        { "no": "Blender", "en": "Blender" },
+        { "no": "AutoCAD", "en": "AutoCAD" }
+      ]
+    },
+    "operatingsystems": {
+      "name": { "no": "Operativsystemer", "en": "Operating Systems" },
+      "items": [
+        { "no": "Windows", "en": "Windows" },
+        { "no": "macOS", "en": "macOS" },
+        { "no": "Linux", "en": "Linux" },
+        { "no": "ChromeOS", "en": "ChromeOS" }
+      ]
+    },
+    "hardware": {
+      "name": { "no": "Maskinvare", "en": "Hardware" },
+      "items": [
+        { "no": "PC-bygging", "en": "PC Building" },
+        { "no": "Feilsøking av maskinvare", "en": "Hardware Troubleshooting" },
+        { "no": "Komponentbytte", "en": "Component Replacement" },
+        { "no": "3D-printing", "en": "3D Printing" },
+        { "no": "Maskinvarespesifikasjoner (HW spec)", "en": "Hardware Specifications (HW spec)" }
+      ]
+    },
+    "virtualization": {
+      "name": { "no": "Virtualisering og containere", "en": "Virtualization & Containers" },
+      "items": [
+        { "no": "Proxmox (hypervisor)", "en": "Proxmox (hypervisor)" },
+        { "no": "VMware Workstation", "en": "VMware Workstation" },
+        { "no": "Docker", "en": "Docker" },
+        { "no": "VirtualBox", "en": "VirtualBox" },
+        { "no": "Hyper-V", "en": "Hyper-V" }
+      ]
+    },
+    "networking": {
+      "name": { "no": "Nettverk", "en": "Networking" },
+      "items": [
+        { "no": "Rutere og switcher", "en": "Routers & Switches" },
+        { "no": "Wi-Fi-oppsett", "en": "Wi-Fi Setup" },
+        { "no": "Kabling", "en": "Cabling" },
+        { "no": "Nettverksfeilsøking", "en": "Network Troubleshooting" },
+        { "no": "VLAN (Layer 2)", "en": "VLAN (Layer 2)" },
+        { "no": "DNS", "en": "DNS" },
+        { "no": "OPNsense / pfSense", "en": "OPNsense / pfSense" },
+        { "no": "Docker networking", "en": "Docker Networking" }
+      ]
+    },
+    "serverops": {
+      "name": { "no": "Server og drift", "en": "Server & Operations" },
+      "items": [
+        { "no": "Serveroppsett", "en": "Server Setup" },
+        { "no": "Klientoppsett", "en": "Client Setup" },
+        { "no": "Lokalt nettverk (LAN)", "en": "Local Area Network (LAN)" },
+        { "no": "Skyløsninger (Azure / AWS / GCP)", "en": "Cloud Solutions (Azure / AWS / GCP)" },
+        { "no": "Active Directory", "en": "Active Directory" },
+        { "no": "Remote Desktop Gateway", "en": "Remote Desktop Gateway" },
+        { "no": "SSL-sertifikater", "en": "SSL Certificates" },
+        { "no": "Backup og gjenoppretting", "en": "Backup & Recovery" }
+      ]
+    },
+    "webdesign": {
+      "name": { "no": "Web og design", "en": "Web & Design" },
+      "items": [
+        { "no": "HTML/CSS", "en": "HTML/CSS" },
+        { "no": "WordPress", "en": "WordPress" },
+        { "no": "UI/UX-design", "en": "UI/UX Design" },
+        { "no": "Figma", "en": "Figma" },
+        { "no": "Wix", "en": "Wix" },
+        { "no": "Webflow", "en": "Webflow" }
+      ]
+    },
+    "security": {
+      "name": { "no": "Datasikkerhet", "en": "Cybersecurity" },
+      "items": [
+        { "no": "Antivirus og malware-beskyttelse", "en": "Antivirus & Malware Protection" },
+        { "no": "Brannmur", "en": "Firewall" },
+        { "no": "Passordadministrasjon", "en": "Password Management" },
+        { "no": "VPN", "en": "VPN" },
+        { "no": "Tofaktorautentisering (2FA)", "en": "Two-Factor Authentication (2FA)" },
+        { "no": "SSL/TLS-sertifisering", "en": "SSL/TLS Certification" }
+      ]
+    },
+    "ai": {
+      "name": { "no": "KI-ferdigheter", "en": "AI Skills" },
+      "items": [
+        { "no": "Brukt LLM (ChatGPT, Copilot, Claude++)", "en": "Used LLMs (ChatGPT, Copilot, Claude++)" },
+        { "no": "Bildegenerering (DALL·E, Midjourney++)", "en": "Image Generation (DALL·E, Midjourney++)" },
+        { "no": "Promptskriving", "en": "Prompt Engineering" },
+        { "no": "KI-assistert koding", "en": "AI-Assisted Coding" }
+      ]
+    },
+    "lowcode": {
+      "name": { "no": "Lavkode / KI-verktøy", "en": "Low-Code / AI Tools" },
+      "items": [
+        { "no": "Lovable", "en": "Lovable" },
+        { "no": "Claude Code", "en": "Claude Code" },
+        { "no": "Power Apps", "en": "Power Apps" },
+        { "no": "Zapier", "en": "Zapier" },
+        { "no": "Make (Integromat)", "en": "Make (Integromat)" },
+        { "no": "Notion AI", "en": "Notion AI" }
+      ]
+    }
+  },
+  "gaming": {
+    "name": { "no": "Gaming og spillaktivitet", "en": "Gaming & Play Activity" },
+    "placeholder": {
+      "no": "Beskriv spillene du spiller og hva du gjør i dem.\n\nEksempel: Spiller Minecraft og har bygget komplekse redstone-systemer. Spiller Counter-Strike og leder laget strategisk. Har moddet Skyrim og lært grunnleggende skripting. Spiller Cities: Skylines og designer effektive transportsystemer...",
+      "en": "Describe the games you play and what you do in them.\n\nExample: Play Minecraft and have built complex redstone systems. Play Counter-Strike and lead the team strategically. Have modded Skyrim and learned basic scripting. Play Cities: Skylines and design efficient transport systems..."
+    }
+  }
+}
