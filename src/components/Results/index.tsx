@@ -29,26 +29,8 @@ export default function Results({ result, formData, language, onNewAnalysis, onB
     day: 'numeric',
   })
 
-  const handleDownloadPDF = async () => {
-    if (typeof window === 'undefined') return
-    try {
-      // Dynamic import for client-side only
-      const html2pdf = (await import('html2pdf.js')).default
-      const element = containerRef.current
-      if (!element) return
-
-      const opt = {
-        margin: [12, 12, 12, 12],
-        filename: `IT-kompetanse-${new Date().toISOString().split('T')[0]}.pdf`,
-        image: { type: 'jpeg', quality: 0.98 },
-        html2canvas: { scale: 2, useCORS: true },
-        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-      }
-
-      await html2pdf().set(opt).from(element).save()
-    } catch (err) {
-      console.error('PDF generation failed:', err)
-    }
+  const handleDownloadPDF = () => {
+    window.print()
   }
 
   return (

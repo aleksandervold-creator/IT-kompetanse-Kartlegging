@@ -61,22 +61,25 @@
   }
 }
 
-/* Print styles for PDF */
+/* Print styles for PDF via window.print() */
 @media print {
   body {
-    @apply bg-white;
+    background: white !important;
+    font-size: 12pt;
   }
 
   .no-print {
     display: none !important;
   }
 
-  .print-only {
-    display: block !important;
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #e5e7eb !important;
+    break-inside: avoid;
   }
 
-  .card {
-    box-shadow: none;
-    border: 1px solid #e5e7eb;
+  header {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
