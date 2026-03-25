@@ -105,7 +105,8 @@ Guidelines:
       throw new Error('Unexpected response type from Claude API')
     }
 
-    const jsonText = content.text.trim()
+    // Strip markdown code fences if present (e.g. ```json ... ```)
+    const jsonText = content.text.trim().replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim()
     const result = JSON.parse(jsonText)
 
     return NextResponse.json(result)
